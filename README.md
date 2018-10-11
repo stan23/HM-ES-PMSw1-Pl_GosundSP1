@@ -1,4 +1,4 @@
-# HM-ES-PMSw1-Pl_SP1     [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+# HM-ES-PMSw1-Pl_GosundSP1     [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Umbau [Gosund SP1 bzw. BliTZWOLF SHP2](https://www.blitzwolf.com/Wifi-Smart-Socket-EU-p-244.html) zu HM-ES-PMSw1-Pl_SP1
 
@@ -18,6 +18,7 @@ Bauteil                  | Bestellnummer   | Anzahl | Kommentar
 C6                       | X5R-G0603 10/6  |   1    | -
 C1, C2, C3, C8           | X7R-G0603 100N  |   4    | -
 R1                       | RND 0603 1 10K  |   1    | -
+...                      | ...             |   1    | -
 
 
 #### Sonstiges
