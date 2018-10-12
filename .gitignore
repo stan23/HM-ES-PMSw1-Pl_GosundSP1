@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# KiCad
+*.bak
+*.kicad_pcb-bak
