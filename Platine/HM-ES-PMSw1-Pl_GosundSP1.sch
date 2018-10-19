@@ -75,7 +75,7 @@ U 1 1 5AD31B90
 P 9250 2375
 F 0 "U2" H 9250 2875 60  0000 C CNN
 F 1 "CC1101" H 9250 1875 60  0000 C CNN
-F 2 "CC1101_Module:CC1101_Module" H 9100 2925 60  0001 C CNN
+F 2 "CC1101_Module:CC1101_SMD" H 9100 2925 60  0001 C CNN
 F 3 "" H 9100 2925 60  0001 C CNN
 	1    9250 2375
 	1    0    0    -1  
@@ -239,28 +239,6 @@ Text Label 1625 6175 0    60   ~ 0
 SCK
 Text Label 1625 6275 0    60   ~ 0
 Reset
-$Comp
-L Conn_01x01 J7
-U 1 1 5AD41019
-P 10250 2375
-F 0 "J7" H 10400 2375 50  0000 C CNN
-F 1 "Ant" H 10550 2375 50  0000 C CNN
-F 2 "Connectors:Pin_d0.7mm_L6.5mm_W1.8mm_FlatFork" H 10250 2375 50  0001 C CNN
-F 3 "" H 10250 2375 50  0001 C CNN
-	1    10250 2375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01 J8
-U 1 1 5ADF8BE1
-P 10250 2525
-F 0 "J8" H 10400 2525 50  0000 C CNN
-F 1 "AntGND" H 10625 2525 50  0000 C CNN
-F 2 "Connectors:Pin_d0.7mm_L6.5mm_W1.8mm_FlatFork" H 10250 2525 50  0001 C CNN
-F 3 "" H 10250 2525 50  0001 C CNN
-	1    10250 2525
-	1    0    0    -1  
-$EndComp
 Text Notes 850  4475 0    60   ~ 0
 FTDI
 Text Notes 875  6000 0    60   ~ 0
@@ -285,7 +263,7 @@ U 1 1 5B4BEEED
 P 1100 3550
 F 0 "J4" H 1250 3550 50  0000 C CNN
 F 1 "Reset" H 1400 3550 50  0000 C CNN
-F 2 "Connectors:Pin_d0.7mm_L6.5mm_W1.8mm_FlatFork" H 1100 3550 50  0001 C CNN
+F 2 "SMD_Packages:1Pin" H 1100 3550 50  0001 C CNN
 F 3 "" H 1100 3550 50  0001 C CNN
 	1    1100 3550
 	-1   0    0    1   
@@ -328,12 +306,12 @@ $EndComp
 $Comp
 L VCC #PWR012
 U 1 1 5B8AAF2B
-P 9275 5000
-F 0 "#PWR012" H 9275 4850 50  0001 C CNN
-F 1 "VCC" H 9275 5150 50  0000 C CNN
-F 2 "" H 9275 5000 50  0001 C CNN
-F 3 "" H 9275 5000 50  0001 C CNN
-	1    9275 5000
+P 9425 5000
+F 0 "#PWR012" H 9425 4850 50  0001 C CNN
+F 1 "VCC" H 9425 5150 50  0000 C CNN
+F 2 "" H 9425 5000 50  0001 C CNN
+F 3 "" H 9425 5000 50  0001 C CNN
+	1    9425 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -362,22 +340,22 @@ Text Notes 9850 5000 2    60   ~ 0
 SEL\nRelay\nLED blue\nCF\nTX\nGND
 Text Notes 9900 5000 0    60   ~ 0
 CF1\nButton\nLED red\n\nRX\nVCC
-Text Label 9150 4600 2    60   ~ 0
-D5
-Text Label 8250 4600 0    60   ~ 0
-B1
+Text Label 9300 4600 2    60   ~ 0
+BUTTON
+Text Label 8050 4600 0    60   ~ 0
+RELAY
 NoConn ~ 8450 4400
 NoConn ~ 8950 4800
-Text Label 8250 4700 0    60   ~ 0
-B0
-Text Label 9150 4700 2    60   ~ 0
-D7
-Text Label 8250 4800 0    60   ~ 0
-D3
-Text Label 9150 4500 2    60   ~ 0
-B2
-Text Label 8250 4500 0    60   ~ 0
-D6
+Text Label 8050 4700 0    60   ~ 0
+LED_blue
+Text Label 9300 4700 2    60   ~ 0
+LED_red
+Text Label 8050 4800 0    60   ~ 0
+CF
+Text Label 9300 4500 2    60   ~ 0
+CF1
+Text Label 8050 4500 0    60   ~ 0
+SEL
 $Comp
 L ATMEGA644PA-AU U1
 U 1 1 5BBE1ACE
@@ -419,8 +397,6 @@ Wire Wire Line
 	9800 2225 9975 2225
 Wire Wire Line
 	9975 2225 9975 2650
-Wire Wire Line
-	9800 2525 10050 2525
 Connection ~ 9975 2525
 Wire Wire Line
 	8300 1350 8300 1525
@@ -463,8 +439,6 @@ Wire Wire Line
 Wire Wire Line
 	1325 6275 1625 6275
 Wire Wire Line
-	10050 2375 9800 2375
-Wire Wire Line
 	1325 4750 1450 4750
 Wire Wire Line
 	1450 4750 1450 4325
@@ -480,21 +454,21 @@ Wire Wire Line
 Wire Wire Line
 	8250 5000 8250 5050
 Wire Wire Line
-	8450 4800 8250 4800
+	8450 4800 8050 4800
 Wire Wire Line
-	8250 4700 8450 4700
+	8050 4700 8450 4700
 Wire Wire Line
-	8450 4600 8250 4600
+	8450 4600 8050 4600
 Wire Wire Line
-	8450 4500 8250 4500
+	8450 4500 8050 4500
 Wire Wire Line
-	8950 4500 9150 4500
+	8950 4500 9300 4500
 Wire Wire Line
-	8950 4600 9150 4600
+	8950 4600 9300 4600
 Wire Wire Line
-	8950 4700 9150 4700
+	8950 4700 9300 4700
 Wire Wire Line
-	9275 5000 8950 5000
+	9425 5000 8950 5000
 Wire Wire Line
 	4850 975  4850 1150
 Wire Wire Line
@@ -533,13 +507,13 @@ Wire Wire Line
 Text Label 4050 1450 2    60   ~ 0
 RESET
 Wire Wire Line
-	6150 2850 6350 2850
+	6150 2850 6550 2850
 Wire Wire Line
-	6150 2950 6350 2950
+	6150 2950 6550 2950
 Wire Wire Line
-	6150 3050 6350 3050
+	6150 3050 6550 3050
 Wire Wire Line
-	6150 2750 6350 2750
+	6150 2750 6550 2750
 Wire Wire Line
 	8500 2225 8750 2225
 Wire Wire Line
@@ -558,51 +532,43 @@ Text Label 8500 2425 0    60   ~ 0
 MISO
 Text Label 8500 2725 0    60   ~ 0
 CS
-Text Label 6350 2750 2    60   ~ 0
+Text Label 6550 2750 2    60   ~ 0
 CS
-Text Label 6350 2850 2    60   ~ 0
+Text Label 6550 2850 2    60   ~ 0
 MOSI
-Text Label 6350 2950 2    60   ~ 0
+Text Label 6550 2950 2    60   ~ 0
 MISO
-Text Label 6350 3050 2    60   ~ 0
+Text Label 6550 3050 2    60   ~ 0
 SCK
 Text Notes 1175 4300 0    60   Italic 12
 DNI
-Wire Wire Line
-	6150 2450 6350 2450
 NoConn ~ 8950 4400
 Wire Wire Line
-	8250 4900 8450 4900
+	8050 4900 8450 4900
 Wire Wire Line
-	8950 4900 9150 4900
-Text Label 8250 4900 0    60   ~ 0
+	8950 4900 9300 4900
+Text Label 8050 4900 0    60   ~ 0
 TX
-Text Label 9150 4900 2    60   ~ 0
+Text Label 9300 4900 2    60   ~ 0
 RX
 Wire Wire Line
-	6150 2550 6350 2550
+	6150 2550 6550 2550
 Wire Wire Line
-	6150 4650 6350 4650
+	6150 4650 6550 4650
 Wire Wire Line
-	6150 4750 6350 4750
-Text Label 6350 2450 2    60   ~ 0
-B1
-Text Label 6350 2550 2    60   ~ 0
-B2
-Text Label 6350 4650 2    60   ~ 0
-D5
-Text Label 6350 4750 2    60   ~ 0
-D6
+	6150 4750 6550 4750
+Text Label 6550 2550 2    60   ~ 0
+GDO0
+Text Label 6550 4650 2    60   ~ 0
+BUTTON
+Text Label 6550 4750 2    60   ~ 0
+LED_blue
 Text Notes 9500 5450 0    60   ~ 0
 red LED: on/off state\nblue LED: connection indication
 Wire Wire Line
-	6150 2350 6350 2350
-Text Label 6350 2350 2    60   ~ 0
-B0
-Wire Wire Line
-	6150 4850 6350 4850
-Text Label 6350 4850 2    60   ~ 0
-D7
+	6150 4850 6550 4850
+Text Label 6550 4850 2    60   ~ 0
+LED_red
 $Comp
 L C C4
 U 1 1 5BBE6529
@@ -661,11 +627,11 @@ License: CC BY-NC-SA 4.0
 Text Notes 8150 7650 0    60   ~ 0
 Oct. 2018
 Text Label 8500 2625 0    60   ~ 0
-D2
+GDO0
 Wire Wire Line
-	6150 4150 6350 4150
-Text Label 6350 4350 2    60   ~ 0
-D2
+	6150 4150 6550 4150
+Text Label 6550 4350 2    60   ~ 0
+CF1
 $Comp
 L GND #PWR018
 U 1 1 5BBEDDB8
@@ -678,7 +644,7 @@ F 3 "" H 4950 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 5350 4950 5150
+	4950 5150 4950 5350
 Wire Wire Line
 	4850 5150 4850 5275
 Wire Wire Line
@@ -690,17 +656,17 @@ Wire Wire Line
 	5050 5150 5050 5275
 Connection ~ 5050 5275
 Wire Wire Line
-	6150 4250 6350 4250
+	6150 4250 6550 4250
 Wire Wire Line
-	6150 4350 6350 4350
-Text Label 6350 4150 2    60   ~ 0
+	6150 4350 6550 4350
+Text Label 6550 4150 2    60   ~ 0
 RX
-Text Label 6350 4250 2    60   ~ 0
+Text Label 6550 4250 2    60   ~ 0
 TX
 Wire Wire Line
-	6150 4450 6350 4450
-Text Label 6350 4450 2    60   ~ 0
-D3
+	6150 4450 6550 4450
+Text Label 6550 4450 2    60   ~ 0
+CF
 Wire Notes Line
 	9875 4325 9875 5025
 Text Notes 9850 4425 2    60   Italic 0
@@ -716,13 +682,24 @@ NoConn ~ 6150 1950
 NoConn ~ 6150 2050
 NoConn ~ 6150 2150
 NoConn ~ 6150 3250
-NoConn ~ 6150 3350
 NoConn ~ 6150 3450
 NoConn ~ 6150 3550
 NoConn ~ 6150 3650
 NoConn ~ 6150 3750
 NoConn ~ 6150 3850
 NoConn ~ 6150 3950
-NoConn ~ 6150 4550
 NoConn ~ 6150 2650
+Wire Wire Line
+	6150 4550 6550 4550
+Text Label 6550 4550 2    60   ~ 0
+RELAY
+Wire Wire Line
+	6150 3350 6550 3350
+Text Label 6550 3350 2    60   ~ 0
+SEL
+NoConn ~ 6150 2350
+NoConn ~ 6150 2450
+Wire Wire Line
+	9800 2525 9975 2525
+NoConn ~ 9800 2375
 $EndSCHEMATC
