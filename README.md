@@ -15,10 +15,10 @@ Dies basiert auf der hervorragenden Arbeit von [pa-pa](https://github.com/pa-pa/
 
 Bauteil                  | Bestellnummer   | Anzahl | Kommentar
 ------------------------ | --------------- | ------ | ---------
-C6                       | X5R-G0603 10/6  |   1    | -
-C1, C2, C3, C8           | X7R-G0603 100N  |   4    | -
+C1                       | X5R-G0603 10/6  |   1    | -
+C2 .. C7                 | X7R-G0603 100N  |   6    | -
 R1                       | RND 0603 1 10K  |   1    | -
-...                      | ...             |   1    | -
+U1                       | ATMEGA 644PA-AU |   1    | -
 
 
 #### Sonstiges
@@ -31,13 +31,14 @@ U2      | CC1101 Funkmodul 868 MHz |   1    | z.B. [eBay](https://www.ebay.de/it
 
 
 ### Programmieradapter
-- 1x ISP (um den Bootloader zu brennen, z.B. [diesen hier](https://www.diamex.de/dxshop/USB-ISP-Programmer-fuer-Atmel-AVR-Rev2))
+- 1x ISP (z.B. [diesen hier](https://www.diamex.de/dxshop/USB-ISP-Programmer-fuer-Atmel-AVR-Rev2))
 
 
 # Software
 
 ### Fuses
 
+TBD
 
 ### Firmware
 
@@ -65,8 +66,11 @@ Pin am ISP-Kabel | Bedeutung
 5                | Reset
 6                | GND
 
+TBD 
+
 # Bilder
 
+TBD
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
