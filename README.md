@@ -42,9 +42,9 @@ TBD
 
 ### Firmware
 
-https://github.com/jp112sdl/Beispiel_AskSinPP/blob/master/examples/HM-ES-PMSw1-Pl/HM-ES-PMSw1-Pl.ino
+Projektverzeichnis: [HM-ES-PMSw1-Pl_GosundSP1](https://github.com/jp112sdl/Beispiel_AskSinPP/tree/master/examples/HM-ES-PMSw1-Pl_GosundSP1)
 
-Benötigt wird die AskSinPP aus dem master-Branch, der V3-Branch ist zu alt.
+Benötigt werden die Bibliotheken [AskSinPP](https://github.com/pa-pa/AskSinPP) aus dem master-Branch, sowie die [HLW8012](https://github.com/xoseperez/hlw8012)
 
 
 # Bauanleitung
