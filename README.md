@@ -76,23 +76,25 @@ Pin am ISP-Kabel | Bedeutung
 5                | Reset
 6                | GND
 
-TBD 
 
 *Achtung*: nicht die default Fuses der Arduino IDE brennen, sonst startet der ATmega nicht mehr weil er einen externen Oszillator erwartet!
 
 Anschließend kann das Funkmodul auf der Rückseite aufgelötet werden. Dabei gibt es verschiedene Möglichkeiten:
 - mit Stift- und Buchsenleiste (abnehmbar)
 - mit Stiftleiste
-- flach auf die SMD-Pads, hier empfiehlt es sich die Lötaugen des CC1101 zur Hälfte abzufeilen
 
 An den Antennenanschluss muss noch das 8,3 cm Drahtstück angelötet werden.
 
-Jetzt wieder den FTDI USB-seriell-Adapter an die 2,54 mm-Stiftleiste stecken und mit einem Terminalprogramm die Ausgabe beobachten. Es sollten schon *Ignore...*-Meldungen empfangen und angezeigt werden.
+Mit einem FTDI USB-seriell-Adapter an den Lötpunkten RX, TX, 3.3 V und GND und mit einem Terminalprogramm kann man die Ausgabe beobachten. Es sollten schon *Ignore...*-Meldungen empfangen und angezeigt werden.
 
-Als nächstes muss das überflüssige WLAN-Modul aus dem OBI-Stecker ausgelötet und die neue Platine eingelötet werden. Der Antennendraht muss mit Heißkleber im Gehäuse befestigt werden, so dass er möglichst weit von 230 V entfernt ist!
+Als nächstes muss das überflüssige WLAN-Modul aus dem Gosund/Blitzwolf-Stecker ausgelötet und die neue Platine eingelötet werden. Der Antennendraht muss mit Heißkleber im Gehäuse befestigt werden, so dass er möglichst weit von 230 V entfernt ist!
 
 Nach dem Zusammenbau kann der Anlernvorgang durch langes Drücken der einzigen Taste gestartet werden. Die Anlernprozedur wird durch langsames Blinken der blauen WLAN-LED angezeigt, der Erfolg durch schnelles Blinken.
 
+
+# Kalibrierung
+
+TBD
 
 
 # Bilder
