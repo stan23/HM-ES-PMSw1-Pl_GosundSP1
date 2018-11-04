@@ -269,7 +269,7 @@ F 3 "" H 1100 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 10575 7650 0    60   ~ 0
-0.1
+1.0
 $Comp
 L VCC #PWR010
 U 1 1 5B688ABB
@@ -389,8 +389,6 @@ F 3 "" H 4000 2550 50  0001 C CNN
 	1    4000 2550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4150 2250
-NoConn ~ 4150 1850
 Wire Wire Line
 	1350 2975 1350 3125
 Wire Wire Line
@@ -702,4 +700,59 @@ NoConn ~ 6150 2450
 Wire Wire Line
 	9800 2525 9975 2525
 NoConn ~ 9800 2375
+$Comp
+L Resonator Y1
+U 1 1 5BDC373F
+P 3800 2050
+F 0 "Y1" H 3800 2275 50  0000 C CNN
+F 1 "Resonator" H 3800 2200 50  0000 C CNN
+F 2 "Resonators:Resonator_SMD_muRata_TPSKA-3pin_7.9x3.8mm_HandSoldering" H 3775 2050 50  0001 C CNN
+F 3 "" H 3775 2050 50  0001 C CNN
+	1    3800 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 1900 3800 1850
+Wire Wire Line
+	3400 1850 4150 1850
+Wire Wire Line
+	3800 2200 3800 2250
+Wire Wire Line
+	3400 2250 4150 2250
+$Comp
+L R R2
+U 1 1 5BDC3B63
+P 3400 2050
+F 0 "R2" V 3480 2050 50  0000 C CNN
+F 1 "1M" V 3400 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 2050 50  0001 C CNN
+F 3 "" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1900 3400 1850
+Connection ~ 3800 1850
+Wire Wire Line
+	3400 2200 3400 2250
+Connection ~ 3800 2250
+$Comp
+L GND #PWR019
+U 1 1 5BDC3CD4
+P 3550 2350
+F 0 "#PWR019" H 3550 2100 50  0001 C CNN
+F 1 "GND" H 3550 2200 50  0000 C CNN
+F 2 "" H 3550 2350 50  0001 C CNN
+F 3 "" H 3550 2350 50  0001 C CNN
+	1    3550 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2050 3550 2050
+Wire Wire Line
+	3550 2050 3550 2350
+Text Notes 1600 3100 0    60   Italic 12
+DNI
+Text Notes 700  3500 0    60   Italic 12
+DNI
 $EndSCHEMATC
