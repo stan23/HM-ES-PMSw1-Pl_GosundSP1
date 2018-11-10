@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/marco/Eigene Projekte/Homematic AskSinPP/Github/HM-ES-PMSw1-Pl_GosundSP1/Platine/HM-ES-PMSw1-Pl_GosundSP1.sch")
-    (date "04.11.2018 19:51:10")
+    (date "10.11.2018 19:51:43")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -65,7 +65,7 @@
       (tstamp 5AD391AF))
     (comp (ref J4)
       (value Reset)
-      (footprint SMD_Packages:1Pin)
+      (footprint Testpads:Testpad)
       (libsource (lib conn) (part Conn_01x01))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B4BEEED))
@@ -303,10 +303,10 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical atmel)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
     (library (logical cc1101-module)

@@ -2,4 +2,5 @@
   (lib (name CC1101_Module)(type KiCad)(uri ${KIPRJMOD}/libraries/cc1101_module.pretty)(options "")(descr "CC1101 module"))
   (lib (name BW-SHP2)(type KiCad)(uri ${KIPRJMOD}/libraries/BW-SHP2-Con.pretty)(options "")(descr "Blitzwolf SHP2 connector"))
   (lib (name Resonators)(type KiCad)(uri "$(KIPRJMOD)/libraries/Resonators.pretty")(options "")(descr Resonators))
+  (lib (name Testpads)(type KiCad)(uri "$(KIPRJMOD)/libraries/Testpads.pretty")(options "")(descr ""))
 )
