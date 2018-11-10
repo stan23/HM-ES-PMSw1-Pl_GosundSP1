@@ -18,7 +18,9 @@ Bauteil                  | Bestellnummer   | Anzahl | Kommentar
 C1                       | X5R-G0603 10/6  |   1    | -
 C2 .. C6                 | X7R-G0603 100N  |   5    | -
 R1                       | RND 0603 1 10K  |   1    | -
+R2                       | RND 0603 1 1,0M |   1    | -
 U1                       | ATMEGA 644PA-AU |   1    | -
+Y1                       | CSTCE 8,00      |   1    | -
 Verbinder zu U2          | MPE 156-1-032   |   1    | muss per Hand umgebogen werden
 Verbinder zu U2          | SL 1X20G 2,00   |   1    | optional, hilfreich zum Anschließen des ISP
 
