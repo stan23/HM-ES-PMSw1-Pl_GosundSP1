@@ -5,6 +5,11 @@ Umbau [Gosund SP1 bzw. BliTZWOLF SHP2](https://www.blitzwolf.com/Wifi-Smart-Sock
 Dies basiert auf der hervorragenden Arbeit von [pa-pa](https://github.com/pa-pa/AskSinPP) und [Jérôme](https://github.com/jp112sdl/Beispiel_AskSinPP).
 
 
+*Achtung*: es kann verschiedene Versionen der Gosund/Blitzwolf-Stecker geben. Diese Platine passt bei folgender Version:
+
+![Blitzwolf SHP2](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Blitzwolf_SHP2.jpg)
+
+
 # Hardware
 
 ### Bauteile
@@ -79,7 +84,6 @@ Pin am ISP-Kabel | Bedeutung
 6                | GND
 
 
-*Achtung*: nicht die default Fuses der Arduino IDE brennen, sonst startet der ATmega nicht mehr weil er einen externen Oszillator erwartet!
 
 Anschließend kann das Funkmodul auf der Rückseite aufgelötet werden. Dabei gibt es verschiedene Möglichkeiten:
 - mit Stift- und Buchsenleiste (abnehmbar)
@@ -104,7 +108,12 @@ TBD
 ![ATmega](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_Vorderseite_bestückt.jpg)
 ![eingelötet](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_Rückseite_bestückt_1.jpg)
 ![eingelötet](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_Rückseite_bestückt_2.jpg)
-![fertig](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/IMG_20180824_112826.jpg)
+![eingelötet](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_V2_bestückt.jpg
+
+![Einbau](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Einbau1.jpg)
+![Einbau](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Einbau2.jpg)
+![Einbau](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Einbau3.jpg)
+![Einbau](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Einbau4.jpg)
 
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
