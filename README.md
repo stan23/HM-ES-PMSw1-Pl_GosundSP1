@@ -108,7 +108,7 @@ TBD
 ![ATmega](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_Vorderseite_bestückt.jpg)
 ![eingelötet](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_Rückseite_bestückt_1.jpg)
 ![eingelötet](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_Rückseite_bestückt_2.jpg)
-![eingelötet](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_V2_bestückt.jpg
+![eingelötet](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Platine_V2_bestückt.jpg)
 
 ![Einbau](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Einbau1.jpg)
 ![Einbau](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/blob/master/Bilder/Einbau2.jpg)
