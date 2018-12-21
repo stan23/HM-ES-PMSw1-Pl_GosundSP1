@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BW_Gosund_Con
+#
+DEF BW_Gosund_Con J 0 40 Y N 1 F N
+F0 "J" 50 400 50 H V C CNN
+F1 "BW_Gosund_Con" 50 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 150 -350 1 1 10 f
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+X CF CF -350 -100 300 R 50 50 1 1 P
+X RX RX 450 -200 300 L 50 50 1 1 P
+X TX TX -350 -200 300 R 50 50 1 1 P
+X CF1 CF1 450 200 300 L 50 50 1 1 P
+X VCC VCC 450 -300 300 L 50 50 1 1 P
+X GND GND -350 -300 300 R 50 50 1 1 P
+X RELAY REL -350 100 300 R 50 50 1 1 P
+X SEL SEL -350 200 300 R 50 50 1 1 P
+X Button BUT 450 100 300 L 50 50 1 1 P
+X LED_blue bLED -350 0 300 R 50 50 1 1 P
+X LED_red rLED 450 0 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

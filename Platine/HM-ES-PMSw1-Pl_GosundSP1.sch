@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:cc1101-module
+LIBS:BW_Gosund_Con
 LIBS:HM-ES-PMSw1-Pl_GosundSP1-cache
 EELAYER 25 0
 EELAYER END
@@ -315,25 +316,14 @@ F 3 "" H 9425 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x07_Odd_Even J1
-U 1 1 5B8AAF58
-P 8650 4700
-F 0 "J1" H 8700 5100 50  0000 C CNN
-F 1 "Conn_BW-SHP2" H 8700 4300 50  0000 C CNN
-F 2 "BW-SHP2:BW-SHP2-Con" H 8650 4700 50  0001 C CNN
-F 3 "" H 8650 4700 50  0001 C CNN
-	1    8650 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR013
 U 1 1 5B8ABA1A
-P 8250 5050
-F 0 "#PWR013" H 8250 4800 50  0001 C CNN
-F 1 "GND" H 8250 4900 50  0000 C CNN
-F 2 "" H 8250 5050 50  0001 C CNN
-F 3 "" H 8250 5050 50  0001 C CNN
-	1    8250 5050
+P 7950 5050
+F 0 "#PWR013" H 7950 4800 50  0001 C CNN
+F 1 "GND" H 7950 4900 50  0000 C CNN
+F 2 "" H 7950 5050 50  0001 C CNN
+F 3 "" H 7950 5050 50  0001 C CNN
+	1    7950 5050
 	1    0    0    -1  
 $EndComp
 Text Notes 9850 5000 2    60   ~ 0
@@ -342,19 +332,17 @@ Text Notes 9900 5000 0    60   ~ 0
 CF1\nButton\nLED red\n\nRX\nVCC
 Text Label 9300 4600 2    60   ~ 0
 BUTTON
-Text Label 8050 4600 0    60   ~ 0
+Text Label 7750 4600 0    60   ~ 0
 RELAY
-NoConn ~ 8450 4400
-NoConn ~ 8950 4800
-Text Label 8050 4700 0    60   ~ 0
+Text Label 7750 4700 0    60   ~ 0
 LED_blue
 Text Label 9300 4700 2    60   ~ 0
 LED_red
-Text Label 8050 4800 0    60   ~ 0
+Text Label 7750 4800 0    60   ~ 0
 CF
 Text Label 9300 4500 2    60   ~ 0
 CF1
-Text Label 8050 4500 0    60   ~ 0
+Text Label 7750 4500 0    60   ~ 0
 SEL
 $Comp
 L ATMEGA644PA-AU U1
@@ -448,17 +436,17 @@ Wire Wire Line
 	1475 1525 1475 1375
 Connection ~ 1475 1375
 Wire Wire Line
-	8450 5000 8250 5000
+	8150 5000 7950 5000
 Wire Wire Line
-	8250 5000 8250 5050
+	7950 5000 7950 5050
 Wire Wire Line
-	8450 4800 8050 4800
+	8150 4800 7750 4800
 Wire Wire Line
-	8050 4700 8450 4700
+	7750 4700 8150 4700
 Wire Wire Line
-	8450 4600 8050 4600
+	8150 4600 7750 4600
 Wire Wire Line
-	8450 4500 8050 4500
+	8150 4500 7750 4500
 Wire Wire Line
 	8950 4500 9300 4500
 Wire Wire Line
@@ -540,12 +528,11 @@ Text Label 6550 3050 2    60   ~ 0
 SCK
 Text Notes 1175 4300 0    60   Italic 12
 DNI
-NoConn ~ 8950 4400
 Wire Wire Line
-	8050 4900 8450 4900
+	7750 4900 8150 4900
 Wire Wire Line
 	8950 4900 9300 4900
-Text Label 8050 4900 0    60   ~ 0
+Text Label 7750 4900 0    60   ~ 0
 TX
 Text Label 9300 4900 2    60   ~ 0
 RX
@@ -755,4 +742,15 @@ Text Notes 1600 3100 0    60   Italic 12
 DNI
 Text Notes 700  3500 0    60   Italic 12
 DNI
+$Comp
+L BW_Gosund_Con J11
+U 1 1 5C1D302E
+P 8500 4700
+F 0 "J11" H 8550 5100 50  0000 C CNN
+F 1 "BW_Gosund_Con" H 8550 4300 50  0000 C CNN
+F 2 "BW-SHP2:Gosund_SP1-C_V2.3" H 8500 4700 50  0001 C CNN
+F 3 "" H 8500 4700 50  0001 C CNN
+	1    8500 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
