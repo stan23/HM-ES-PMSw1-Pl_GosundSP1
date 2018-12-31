@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BW_Gosund_Con
+D Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x07_Odd_Even
+D Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

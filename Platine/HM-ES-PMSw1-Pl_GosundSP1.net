@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/marco/Eigene Projekte/Homematic AskSinPP/Github/HM-ES-PMSw1-Pl_GosundSP1/Platine/HM-ES-PMSw1-Pl_GosundSP1.sch")
-    (date "21.12.2018 19:39:13")
+    (date "31.12.2018 16:54:47")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -300,16 +300,16 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive)))))
   (libraries
-    (library (logical atmel)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
-    (library (logical BW_Gosund_Con)
-      (uri "C:\\Users\\marco\\Eigene Projekte\\Homematic AskSinPP\\Github\\HM-ES-PMSw1-Pl_GosundSP1\\Platine\\libraries\\BW_Gosund_Con.lib"))
-    (library (logical cc1101-module)
-      (uri "C:\\Users\\marco\\Eigene Projekte\\Homematic AskSinPP\\Github\\HM-ES-PMSw1-Pl_GosundSP1\\Platine\\libraries\\cc1101-module.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical atmel)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
+    (library (logical cc1101-module)
+      (uri "C:\\Users\\marco\\Eigene Projekte\\Homematic AskSinPP\\Github\\HM-ES-PMSw1-Pl_GosundSP1\\Platine\\libraries\\cc1101-module.lib"))
+    (library (logical BW_Gosund_Con)
+      (uri "C:\\Users\\marco\\Eigene Projekte\\Homematic AskSinPP\\Github\\HM-ES-PMSw1-Pl_GosundSP1\\Platine\\libraries\\BW_Gosund_Con.lib")))
   (nets
     (net (code 1) (name /TX)
       (node (ref U1) (pin 10))
