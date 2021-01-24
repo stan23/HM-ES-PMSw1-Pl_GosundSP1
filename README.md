@@ -1,5 +1,7 @@
 # HM-ES-PMSw1-Pl_GosundSP1     [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)     [![GitHub issues](https://img.shields.io/github/issues/stan23/HM-ES-PMSw1-Pl_GosundSP1.svg)](https://github.com/stan23/HM-ES-PMSw1-Pl_GosundSP1/issues)
 
+Patrick hat eine [verbesserte Version gemacht](https://github.com/der-pw/HM-ES-PMSw1-Pl_GosundSP1).
+
 Umbau [Gosund SP1 bzw. BliTZWOLF SHP2](https://www.blitzwolf.com/Wifi-Smart-Socket-EU-p-244.html) zu HM-ES-PMSw1-Pl_SP1
 
 Dies basiert auf der hervorragenden Arbeit von [pa-pa](https://github.com/pa-pa/AskSinPP) und [Jérôme](https://github.com/jp112sdl/Beispiel_AskSinPP).
